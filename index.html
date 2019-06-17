@@ -47,6 +47,8 @@
             background-color: #ffffff;
             padding: 20px;
             line-height: 2;
+            margin-top: 28px;
+            margin-bottom: 28px;
         }
         h2 {
             border-bottom: 2.9px solid #777777;
@@ -54,21 +56,21 @@
             margin-bottom: 1.5rem;
             padding-bottom: 8px;
         }
-        img {
-            height: 150px;
-            width: 150px;
+        .max {
+            max-width: 25%;
             margin-right: 20px;
         }
-        .footer {
-            position: absolute;
-            bottom: 0;
+        img {
             width: 100%;
-            height: 60px;
-            line-height: 50px;
+        }
+        .mt-auto, .my-auto {
+            margin-top: auto !important;
+        }
+        .footer {
             background-color: #666666;
-            color: #cccccc !important;
+            color: #cccccc;
             text-align: center;
-            Border-top: 5px solid #4aaaa5;
+            border-top: 5px solid #4aaaa5;
             font-size: 12px;
         }
     </style>
@@ -104,8 +106,8 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="float-lg-left float-md-left float-none">
-                            <img src="images/profile_picture.JPG" alt="profile picture" class="w-100 p-3">
+                        <div class="float-lg-left float-md-left float-none max">
+                            <img src="images/profile_picture.JPG" alt="profile picture">
                         </div>
                         <p>My entrepreneurial personality evolves from the need to have pocket change to be able to go out with my friends in the expensive city of Miami. Since then my brother and I started an e-commerce business selling through the different marketplaces such as; Amazon, eBay, Walmart, Jet, and Etsy. I focused on sales and brand recognition and in the span of two years the company was making over a million dollars in revenues. We decided to take our little venture one step further by raising capital and take an active partner that would help us grow, but the partnership was not the right one and had to sell our shares of the business. Since then we started our second company that specialized in office supplies also via e-commerce and b2b sales, but with the right partners and in the first year of business we were able to make $800,000 dollars in revenues and are currently on track to go over the 2 million dollars in revenues.
                         </p>
@@ -121,11 +123,9 @@
     </div>
     </section>
     <!-- Begin Footer -->
-    <footer class="footer">
+    <footer class="footer mt-auto py-3">
         <div class="container">
-            <div class="col-12">
-                <span>copyright &copy;</span>
-            </div>
+            <span>copyright &copy;</span>
         </div>
     </footer>
 
