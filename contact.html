@@ -59,6 +59,9 @@
             width: 150px;
             margin-right: 20px;
         }
+        .btn {
+            margin-top: 20px;
+        }
         .footer {
             position: absolute;
             bottom: 0;
@@ -99,33 +102,30 @@
             <section class="content">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Portfolio</h2>
+                        <h2>Contact</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div clas="col-lg-6 col-md-6 col-sm-12">
-                                <img src="images/realstate.jpg" alt="Two Towers">
-                            </div>
-                            <div clas="col-lg-6 col-md-6 col-sm-12">
-                                <img src="images/tractor.jpg" alt="Tractor on field">
-                            </div>
+                <form>
+                    <div class="form-row">
+                        <div class="col-12">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="First name">
                         </div>
-                        <div class="row">
-                            <div clas="col-lg-6 col-md-6 col-sm-12">
-                                <img src="images/vacation.jpg" alt="gondola in venice">
-                            </div>
-                            <div clas="col-lg-6 col-md-6 col-sm-12">
-                                <img src="images/watch.jpg" alt="modern watch">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div clas="col-lg-6 col-md-6 col-sm-12">
-                                    <img src="images/young_golden_retriever.jpg" alt="golden retriever puppy">
-                                </div>
-                            </div>
                     </div>
-                </div>
+                    <div class="form-row">
+                        <div class="col-12">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="email" placeholder="name@email.com">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-12">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="10"></textarea>
+                        </div>
+                    </div>
+                      <button class="btn btn-warning" type="submit">Submit</button>
+                    </form>
             </section>
             </div>
         </div>
